@@ -1,0 +1,21 @@
+{
+  "name": "npm-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChuckAileron/POC-NPM-Module-Typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
